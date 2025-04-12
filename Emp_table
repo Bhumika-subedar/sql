@@ -1,0 +1,10 @@
+create table emp(
+    emp_id int,
+    emp_name varchar(20),
+    emp_dob Date,
+    emp_salary varchar(20)
+);
+
+insert into table values(101,'Ajit','29-10-2003''20000'),(102,'Arun','30-10-2003','30000');
+
+select *from emp;
